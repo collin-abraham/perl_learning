@@ -1,3 +1,8 @@
+# splitandreadcsvfiles.pl
+# Collin Abraham	
+# 2022-08-07
+# this script shows how to split data out of a CSV file
+
 use strict;
 use warnings;
 
