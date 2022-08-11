@@ -1,4 +1,4 @@
-# test2_task2.pl
+# test2_task3.pl
 # Collin Abraham	
 # 2022-08-11
 # second test second task -> extract the column names from the heading, don't use $name $payment $date 
@@ -30,7 +30,6 @@ sub main {
 			$line =~ /\S+/ or next; 
 			
 
-			
 			my @values = split (/\s*,\s*/, $line);
 			
 			if(scalar(@values) < 3) {
